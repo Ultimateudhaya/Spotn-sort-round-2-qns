@@ -8,10 +8,11 @@ def min_window_substring(s, t):
 
    
     pattern_counts = Counter(t)
-    
-        
+    left,right=0,0
+    required_chars=len(pattern_counts)
+    current_chars=0
     min_length = float('inf')
-    
+    min_window="
 
 
     window_counts = {}
